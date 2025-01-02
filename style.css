@@ -1,1 +1,65 @@
 /* Regole generali */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #17a494;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-family: "Gochi Hand", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+td {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid transparent;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 999px;
+    box-shadow: 0px 4px 6px 2px gray;
+    font-weight: 800;
+}
+
+p {
+    font-weight: 900;
+}
+
+#number-ext {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
+
+#line {
+    border: white;
+    width: 100px;
+    height: 2px;
+    margin: 5px 0px 5px 0px;
+}
+
+#btn-ext {
+    background-color: orange;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#btn-end {
+    background-color: purple;
+    padding: 5px;
+    border-radius: 5px;
+}

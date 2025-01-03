@@ -36,14 +36,14 @@ h1 {
     font-size: 50px;
 }
 
-/* Cartellone */
+/* Tabellone */
 
 table {
     border-collapse: separate;
     border-spacing: 8px;
 }
 
-/* Numeri del Cartellone */
+/* Numeri del Tabellone */
 
 td {
     padding: 10px;

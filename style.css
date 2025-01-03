@@ -69,6 +69,10 @@ td {
     width: 100px;
     height: 100px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
 }
 
 #line {
@@ -97,7 +101,7 @@ td {
     text-align: center;
     margin: 0 auto;
     color: white;
-
+    cursor: pointer;
 }
 
 /* Bottone "Termina Gioco" */
@@ -110,4 +114,5 @@ td {
     text-align: center;
     margin: 0 auto;
     color: #17a494;
+    text-decoration: none;
 }

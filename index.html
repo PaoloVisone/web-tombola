@@ -11,8 +11,7 @@
     <title>Tombola</title>
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-    <!-- JS -->
-    <script src="script.js"></script>
+
 </head>
 
 <body>
@@ -148,7 +147,9 @@
 
             <p id="text-last">Ultimo numero estratto</p>
 
-            <div id="number-ext"></div>
+            <div id="number-box">
+                <p id="number-ext"></p>
+            </div>
 
             <div id="line"></div>
 
@@ -156,7 +157,7 @@
 
             <div class="btn-box">
 
-                <a id="btn-ext">Estrai</a>
+                <a onclick="pushNumber()" id="btn-ext">Estrai</a>
 
             </div>
 
@@ -171,6 +172,10 @@
 
         </div>
     </div>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
 </body>
 
 </html>

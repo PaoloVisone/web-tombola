@@ -11,6 +11,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Font Giochi Hand */
+
 header {
     font-family: "Gochi Hand", serif;
     font-weight: 400;
@@ -28,14 +30,20 @@ header {
     padding: 10px;
 }
 
+/* Titolo */
+
 h1 {
     font-size: 50px;
 }
+
+/* Cartellone */
 
 table {
     border-collapse: separate;
     border-spacing: 8px;
 }
+
+/* Numeri del Cartellone */
 
 td {
     padding: 10px;
@@ -47,10 +55,14 @@ td {
     font-weight: 800;
 }
 
+/* Estraione */
+
 #text-last {
     font-weight: 700;
     margin-top: 15px;
 }
+
+/* Numero estratto */
 
 #number-ext {
     background-color: white;
@@ -75,6 +87,8 @@ td {
 
 }
 
+/* Bottone "estrai */
+
 #btn-ext {
     background-color: orange;
     padding: 5px;
@@ -85,6 +99,8 @@ td {
     color: white;
 
 }
+
+/* Bottone "Termina Gioco" */
 
 #btn-end {
     background-color: purple;
